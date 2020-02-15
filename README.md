@@ -4,9 +4,10 @@ In this project, we will predict a popularity score for Reddit comments using Li
 comments from **r/AskReddit** forum, which is a question-answering forum within Reddit. Since these comments are directly downloaded from 
 Reddit, they may contain inappropriate and foul language.<br>
 We conduct the Linear Regression using two approaches:
-* **Closed-form solution**: ![closed-form](closed-form.JPG)
-* **Gradient descent**: Here is the algorithm to implement Gradient descent:<br>
-![Gradient descent](GD.JPG)
+* **Closed-form solution**: <br><br>![closed-form](closed-form.JPG)
+* **Gradient descent**: Here is the algorithm to implement Gradient descent:<br><br>
+![Gradient descent](GD.JPG) <br>
+For evaluation, we use Mean Squared Error (MSE) and the time it takes to run each of the above approaches.
 
 ## Dataset
 The dataset is a .json file of a NumPy list containing 12000 comments. Each comment is a dictionary with the following keys:
@@ -34,3 +35,5 @@ Download the repository in your local computer.
 git clone https://github.com/PouriaCh/RedditComments.git
 ```
 If all of the required packages are installed, you will have the results. 
+## Acknowledgement
+This project was done as part of the COMP551 (Applied Machine Learning) requirements in McGill University.
