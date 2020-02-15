@@ -36,4 +36,5 @@ git clone https://github.com/PouriaCh/RedditComments.git
 ```
 If all of the required packages are installed, you will have the results. 
 ## Acknowledgement
-This project was done as part of the COMP551 (Applied Machine Learning) requirements in McGill University. The closed-form formula formula and the GD algorithm pictures were taken from the project specification.
+This project was done as part of the COMP551 (Applied Machine Learning) requirements in McGill University. The closed-form formula 
+and the GD algorithm pictures were taken from the project specification.
