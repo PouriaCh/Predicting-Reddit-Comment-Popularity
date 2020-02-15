@@ -23,7 +23,7 @@ The dataset file is in the data folder.
 As the comments are taken from real discussions, we need to remove irrelevant information (such as numbers, punctuations, etc.) 
 from each comment. This increases the performance of the regressor.
 ## Getting Started
-In order to run the code, you need to use a Python3 kernel in your Jupyter Notebook. 
+In order to run the code, you can either use a Python3 kernel in your Jupyter Notebook or any Python IDE. 
 ### Prerequisites
 Install the following packages: 
 * Matplotlib
