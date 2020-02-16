@@ -4,9 +4,14 @@ In this project, we will predict a popularity score for Reddit comments using Li
 comments from **r/AskReddit** forum, which is a question-answering forum within Reddit. Since these comments are directly downloaded from 
 Reddit, they may contain inappropriate and foul language.<br>
 We conduct the Linear Regression using two approaches:
-* **Closed-form solution**: <br><br>![closed-form](closed-form.JPG)</br></br>
-* **Gradient descent**: Here is the algorithm to implement Gradient descent:<br><br>
-![Gradient descent](GD.JPG) </br></br>
+* **Closed-form solution**: 
+<div>
+<img src="closed-form.JPG" width="170"/>  
+</div>
+* **Gradient descent**: Here is the algorithm to implement Gradient descent:
+<div>
+<img src="GD.JPG" width="700"/>  
+</div>
 For evaluation, we use Mean Squared Error (MSE) and the time it takes to run each of the above approaches.
 
 ## Dataset
